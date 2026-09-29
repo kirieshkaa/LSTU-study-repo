@@ -1,0 +1,35 @@
+.container {
+    margin:0px 0px;
+}
+
+header {
+    background-color: rgba(68, 158, 255, 0.516);
+}
+
+.header-logo {
+    height: 60px;
+    width: auto;
+}
+
+.tytle-text {
+    text-align: center;
+}
+
+nav, ul, li {
+    display: inline;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.header-menu {
+    margin:0px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu-item {
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-items: center;
+}
