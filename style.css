@@ -1,5 +1,7 @@
 .container {
-    margin:0px 0px;
+    margin:0px auto;
+    max-width:1440px;
+    padding: 0px 40px;
 }
 
 header {
@@ -32,4 +34,14 @@ nav, ul, li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     align-items: center;
+}
+
+.projects {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-items {
+    width:300px;
 }
